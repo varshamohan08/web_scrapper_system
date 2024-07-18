@@ -10,7 +10,7 @@ This Django project is designed to save and retrieve details of entities from a 
 - Django REST framework
 - Selenium
 - ChromeDriver
-#### Installation / Setup
+#### Installation or Setup
 Clone the repository:
 ```
 git clone https://github.com/varshamohan08/web_scrapper_system.git
@@ -32,6 +32,19 @@ Run the development server:
 ```
 python manage.py runserver
 ```
-
-
-
+#### Endpoints Example Requests
+Note: All endpoint examples are based on the local server running at http://127.0.0.1 on port 8000.
+- Save Entity
+```
+http://127.0.0.1:8000/api/save-entity?webpage_url=https://k12.sfsymphony.org/Buy-Tickets/2023-24/Chamber-Jun-16
+```
+- Get Entity
+```
+http://127.0.0.1:8000/api/get-entity
+```
+```
+http://127.0.0.1:8000/api/get-entity?id=1
+```
+```
+http://127.0.0.1:8000/api/get-entity?webpage_url=https://k12.sfsymphony.org/Buy-Tickets/2023-24/Chamber-Jun-16
+```

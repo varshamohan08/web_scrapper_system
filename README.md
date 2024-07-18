@@ -46,5 +46,5 @@ http://127.0.0.1:8000/api/get-entity
 http://127.0.0.1:8000/api/get-entity?id=1
 ```
 ```
-http://127.0.0.1:8000/api/get-entity?webpage_url=https://k12.sfsymphony.org/Buy-Tickets/2023-24/Chamber-Jun-16
+http://127.0.0.1:8000/api/get-entity?webpage_url=<webpage_url>
 ```

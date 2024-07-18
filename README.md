@@ -32,7 +32,7 @@ Run the development server:
 ```
 python manage.py runserver
 ```
-#### Endpoints Example Requests
+#### Endpoints: Example Requests
 Note: All endpoint examples are based on the local server running at http://127.0.0.1 on port 8000.
 - Save Entity
 ```

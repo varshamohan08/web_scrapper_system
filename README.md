@@ -36,7 +36,7 @@ python manage.py runserver
 Note: All endpoint examples are based on the local server running at http://127.0.0.1 on port 8000.
 - Save Entity
 ```
-http://127.0.0.1:8000/api/save-entity?webpage_url=https://k12.sfsymphony.org/Buy-Tickets/2023-24/Chamber-Jun-16
+http://127.0.0.1:8000/api/save-entity?webpage_url=<webpage_url>
 ```
 - Get Entity
 ```
